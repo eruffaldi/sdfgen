@@ -14,7 +14,7 @@ class Main {
 		iron.Scene.setActive("Scene");
 		iron.data.Data.getBlob("out.bin", function(blob:kha.Blob) {
 
-			var res = 50;
+			var res = 200;
 			sdftex = kha.Image.fromBytes(blob.toBytes(), res, res * res, kha.graphics4.TextureFormat.A16, kha.graphics4.Usage.StaticUsage);
 
 			iron.object.Uniforms.externalTextureLinks = [externalTextureLink];

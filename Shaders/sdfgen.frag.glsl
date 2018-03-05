@@ -9,7 +9,7 @@ in vec2 texCoord;
 
 out vec4 fragColor;
 
-const float res = 50.0; // sdftex res
+const float res = 200.0; // sdftex res
 const float res2 = res * res;
 
 float dot2(const vec3 v) {
